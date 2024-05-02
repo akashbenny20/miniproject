@@ -61,7 +61,7 @@ window.addEventListener("DOMContentLoaded", () => {
     try {
       const result = await signInWithPopup(auth, provider);
       const user = result.user;
-      window.location.href = "bot.html";
+      window.location.href = "dash.html";
     } catch (error) {
       console.error("Google login error:", error.message);
       alert(error.message);
